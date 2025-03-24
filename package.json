@@ -1,0 +1,22 @@
+{
+  "name": "calorie-calculator",
+  "version": "1.0.0",
+  "description": "Калькулятор КБЖУ для обчислення калорій",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "dependencies": {
+    "playwright": "^1.51.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.51.1",
+    "nyc": "^17.1.0"
+  },
+  "scripts": {
+    "test": "nyc cucumber-js",
+    "coverage": "nyc report --reporter=text-summary --reporter=html"
+  }
+
+}
