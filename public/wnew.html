@@ -9,13 +9,13 @@
 </head>
 <body>
 <header>
-    <img src="images/logo.png" alt="Логотип" class="logo">
+    <img src="images/logo.png" alt="Логотип калькулятора КБЖУ" class="logo">
     <nav>
-        <button>App Store</button>
-        <button>Google Play</button>
-        <button>Windows</button>
-        <button>MacOS</button>
-        <button>Профіль</button>
+        <button aria-label="Завантажити з App Store">App Store</button>
+        <button aria-label="Завантажити з Google Play">Google Play</button>
+        <button aria-label="Завантажити для Windows">Windows</button>
+        <button aria-label="Завантажити для MacOS">MacOS</button>
+        <button aria-label="Відкрити профіль">Профіль</button>
     </nav>
 </header>
 <main>
@@ -44,18 +44,18 @@
         <label for="age">Вік:</label>
         <input type="number" id="age" min="10" max="120" required>
 
-        <button type="button" id="calculate">Старт</button>
+        <button type="button" id="calculate" aria-label="Розрахувати калорії">Старт</button>
     </form>
 </main>
 <footer>
     <input type="text" placeholder="Поле 1">
     <input type="text" placeholder="Поле 2">
     <input type="text" placeholder="Поле 3">
-    <button>Розрахувати</button>
+    <button aria-label="Виконати розрахунок">Розрахувати</button>
 </footer>
 <div id="result-modal" class="modal">
     <div class="modal-content">
-        <span class="close-button">&times;</span>
+        <span class="close-button" aria-label="Закрити вікно результату">&times;</span>
         <p id="result-text"></p>
     </div>
 </div>

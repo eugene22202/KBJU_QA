@@ -9,6 +9,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: Arial, sans-serif;
+    color: #343a40; /* Покращений контраст тексту */
+    background: #f8f9fa;
 }
 
 /* Header */
@@ -29,7 +31,7 @@ nav {
 nav button {
     padding: 8px 12px;
     border: none;
-    background: #007bff;
+    background: #0056b3; /* Покращений контраст кнопок */
     color: white;
     cursor: pointer;
     border-radius: 5px;
@@ -84,7 +86,7 @@ footer input {
 footer button {
     padding: 8px 12px;
     border: none;
-    background: #28a745;
+    background: #218838; /* Покращений контраст кнопки */
     color: white;
     cursor: pointer;
     border-radius: 5px;
